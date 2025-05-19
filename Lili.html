@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lili – Our Star</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      color: white;
+      background: black;
+      overflow-x: hidden;
+    }
+
+    .hero {
+      height: 100vh;
+      background: url('https://i.imgur.com/fZ9XQ2E.jpg') center center / cover no-repeat;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background-size: cover;
+      position: relative;
+    }
+
+    .hero::after {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0,0,0,0.6);
+      z-index: 1;
+    }
+
+    .hero h1 {
+      z-index: 2;
+      font-size: 60px;
+      margin: 0;
+    }
+
+    .hero p {
+      z-index: 2;
+      font-size: 20px;
+      margin-top: 10px;
+      font-style: italic;
+    }
+
+    .content {
+      padding: 40px 20px;
+      max-width: 700px;
+      margin: auto;
+      text-align: left;
+      background: #111;
+    }
+
+    .content h2 {
+      font-size: 30px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #333;
+      padding-bottom: 10px;
+    }
+
+    .content p {
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <h1>Lili</h1>
+    <p>Our love is eternal, shining forever through Lili.</p>
+  </div>
+
+  <div class="content">
+    <h2>About the Star</h2>
+    <p>🌟 <strong>Star Name:</strong> Lili</p>
+    <p>📍 <strong>Coordinates:</strong> RA 18h 36m 56.3s | Dec +38° 47′ 1″</p>
+    <p>📅 <strong>Date of Registration:</strong> Monday, May 27, 2025</p>
+    <p>📝 This star was named in honor of <strong>Lili</strong>, as a symbol of eternal love that will shine in the sky forever, just like our hearts are forever connected.</p>
+  </div>
+</body>
+</html>
